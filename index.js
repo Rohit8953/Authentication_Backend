@@ -24,3 +24,7 @@ app.listen(PORT,()=>{
   console.log(`app  listening at Port no:${PORT}`);
 });
 
+app.get("/", (req, res) => {
+  res.send("Backend code running successfuly");
+});
+
